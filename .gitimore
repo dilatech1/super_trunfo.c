@@ -1,0 +1,7 @@
+### 3. `.gitignore`
+
+```plaintext
+*.exe
+*.o
+*.out
+*.log
