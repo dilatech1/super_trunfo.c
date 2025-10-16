@@ -1,4 +1,4 @@
-# 🃏 Super Trunfo de Países
+# 🃏 Cartas do Super Trunfo
 
 Projeto do desafio nível novato: cadastro de cartas do jogo Super Trunfo com informações sobre cidades brasileiras.
 
