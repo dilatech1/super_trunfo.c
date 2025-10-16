@@ -2,7 +2,7 @@
 
 Projeto do desafio nível novato: cadastro de cartas do jogo Super Trunfo com informações sobre cidades brasileiras.
 
-## 🎯 Objetivo
+##  Objetivo
 
 Permitir ao usuário cadastrar duas cartas com os seguintes dados:
 - Estado (A–H)
@@ -13,12 +13,12 @@ Permitir ao usuário cadastrar duas cartas com os seguintes dados:
 - PIB (bilhões de reais)
 - Número de pontos turísticos
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - Linguagem C
 - Compilador GCC
 
-## 🚀 Como executar
+##  Como executar
 
 ### Compilação
 ```bash
