@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 struct Carta {
-    char estado[50];
-    char codigo[10];
+    char estado; // Uma letra de 'A' a 'H'
+    char codigo[10]; // Ex: A01, B03
     char nome_cidade[50];
     int populacao;
     float area;
@@ -15,39 +15,39 @@ int main() {
     struct Carta carta2;
 
     printf("Cadastro da Carta 1:\n");
-    printf("Estado: ");
-    scanf(" %[^\n]", carta1.estado);
-    printf("Código: ");
+    printf("Estado (A-H): ");
+    scanf(" %c", &carta1.estado);
+    printf("Código da Carta (ex: A01): ");
     scanf(" %[^\n]", carta1.codigo);
     printf("Nome da Cidade: ");
     scanf(" %[^\n]", carta1.nome_cidade);
     printf("População: ");
     scanf("%d", &carta1.populacao);
-    printf("Área: ");
+    printf("Área (em km²): ");
     scanf("%f", &carta1.area);
-    printf("PIB: ");
+    printf("PIB (em bilhões de reais): ");
     scanf("%f", &carta1.pib);
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &carta1.pontos_turisticos);
 
     printf("\nCadastro da Carta 2:\n");
-    printf("Estado: ");
-    scanf(" %[^\n]", carta2.estado);
-    printf("Código: ");
+    printf("Estado (A-H): ");
+    scanf(" %c", &carta2.estado);
+    printf("Código da Carta (ex: A01): ");
     scanf(" %[^\n]", carta2.codigo);
     printf("Nome da Cidade: ");
     scanf(" %[^\n]", carta2.nome_cidade);
     printf("População: ");
     scanf("%d", &carta2.populacao);
-    printf("Área: ");
+    printf("Área (em km²): ");
     scanf("%f", &carta2.area);
-    printf("PIB: ");
+    printf("PIB (em bilhões de reais): ");
     scanf("%f", &carta2.pib);
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &carta2.pontos_turisticos);
 
     printf("\n--- Carta 1 ---\n");
-    printf("Estado: %s\n", carta1.estado);
+    printf("Estado: %c\n", carta1.estado);
     printf("Código: %s\n", carta1.codigo);
     printf("Cidade: %s\n", carta1.nome_cidade);
     printf("População: %d\n", carta1.populacao);
@@ -56,7 +56,7 @@ int main() {
     printf("Pontos Turísticos: %d\n", carta1.pontos_turisticos);
 
     printf("\n--- Carta 2 ---\n");
-    printf("Estado: %s\n", carta2.estado);
+    printf("Estado: %c\n", carta2.estado);
     printf("Código: %s\n", carta2.codigo);
     printf("Cidade: %s\n", carta2.nome_cidade);
     printf("População: %d\n", carta2.populacao);
