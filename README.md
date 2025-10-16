@@ -18,10 +18,9 @@ Permitir ao usuário cadastrar duas cartas com os seguintes dados:
 - Linguagem C
 - Compilador GCC
 
-## Compilação
+## Compilação e Execução
 ```bash
 gcc super_trunfo.c -o super_trunfo.exe
 
-##  Como executar
 Após a compilação, rode o programa com:
 .\super_trunfo.exe
