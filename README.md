@@ -1,3 +1,4 @@
+Você disse:
 # 🃏 Cartas do Super Trunfo
 
 Projeto do desafio nível novato: cadastro de cartas do jogo Super Trunfo com informações sobre cidades brasileiras.
@@ -19,7 +20,8 @@ Permitir ao usuário cadastrar duas cartas com os seguintes dados:
 - Compilador GCC
 
 ## Compilação e Execução
-```bash
+
+bash
 gcc super_trunfo.c -o super_trunfo.exe
 
 Após a compilação, rode o programa com:
